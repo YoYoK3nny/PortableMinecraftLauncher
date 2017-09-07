@@ -2,6 +2,9 @@
 *.exe
 *.dll
 
+# Configuration files
+*.ini
+
 # Source files
 *.nsh
 *.nsi
