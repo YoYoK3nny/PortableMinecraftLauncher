@@ -1,0 +1,1 @@
+Binaries in this folder are ©/®/™ by their respective developer.
