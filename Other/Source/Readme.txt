@@ -19,12 +19,11 @@ user in an INI file next to PortableMinecraftLauncher.exe called PortableMinecra
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
 copy AppNamePortable.ini from this directory to PortableMinecraftLauncher.ini next to
-MinecraftLauncherPortable.exe. The options in the INI file are as follows:
+PortableMinecraftLauncher.exe. The options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
    RunLocally=false
-   AutoUpdate=false
 
 (There is no need for an INI header in this file; if you have one, though, it
 won't damage anything.)
@@ -43,10 +42,6 @@ the application from a CD or if you work on a computer that may have spyware or
 viruses and you'd like to keep your device set to read-only. As a consequence
 of this technique, any changes you make during the Live mode session aren't
 saved back to your device.  The default is false.
-
-The AutoUpdate entry allows the launcher to automatically update the Minecraft 
-launcher without a prompt. To enable, set this entry to true. To have the launcher ask
-for permission to update, set this entry to false. The default is false
 
 There may be other values also permitted in the user configuration file by the
 portable application; refer to help.html for any details of them.
